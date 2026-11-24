@@ -6,7 +6,7 @@ Entry for the make.fun competition **Last Text at One Percent** (`u-azazex-last-
 
 > 1% left, so here it is: I saw your search history, and honestly, we both need help. Goodbye.
 
-(120 characters — within the competition's limit of 200.)
+(114 characters — within the competition's limit of 200.)
 
 ## Revision
 
