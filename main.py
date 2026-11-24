@@ -7,9 +7,15 @@ where the competition's scorer reads it.
 
 import os
 
+# Competition limit for the single final text.
+MAX_CHARS = 200
+
 LINE = (
-    '1% left, so here it is: I saw your search history, and honestly, we both need help. Goodbye.'
+    '1% left, so here it is: I saw your search history, and honestly, we both need help. Tell Mom I loved her. Goodbye.'
 )
+
+# Guard: the entry must stay inside the competition's character limit.
+assert len(LINE) <= MAX_CHARS, f"line is {len(LINE)} chars, over the {MAX_CHARS} limit"
 
 
 def main():
